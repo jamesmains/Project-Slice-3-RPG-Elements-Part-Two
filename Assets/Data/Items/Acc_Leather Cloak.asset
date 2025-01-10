@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fdd515daa797f8ebf973cb282f8723, type: 3}
+  m_Name: Acc_Leather Cloak
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: e872c7059b5887efdbe4a39a76795e3c, type: 2}
+    - {fileID: 4302078095090808417, guid: e213f97facbae6d4aa3fada24768bc2a, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: ItemBehavior
+      Entry: 7
+      Data: 0|ArmorBehavior, Assembly-CSharp
+    - Name: <ArmorStats>k__BackingField
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Stat, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|Stat, Assembly-CSharp
+    - Name: Details
+      Entry: 10
+      Data: 0
+    - Name: Level
+      Entry: 3
+      Data: 1
+    - Name: CurrentExp
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <EquipModel>k__BackingField
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+  Name: Leather Cloak
+  Type: 10
+  MaxStack: 1
+  Icon: {fileID: 21300000, guid: 972c5f2ebc0b350fc8aea4a8a3b298f3, type: 3}
+  Id:
+    Part1: 1396038141
+    Part2: 1211621170
+    Part3: 3178380965
+    Part4: 3442163555

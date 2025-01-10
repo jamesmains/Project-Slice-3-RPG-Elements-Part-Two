@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fdd515daa797f8ebf973cb282f8723, type: 3}
+  m_Name: MH_Fists
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: ItemBehavior
+      Entry: 7
+      Data: 0|WeaponBehavior, Assembly-CSharp
+    - Name: <EquipModel>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <EquipMeshList>k__BackingField
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[UnityEngine.Mesh, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <WeaponStats>k__BackingField
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Stat, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Name: 
+  Type: 8
+  MaxStack: 1
+  Icon: {fileID: 0}
+  Id:
+    Part1: 1060739819
+    Part2: 1280155486
+    Part3: 2877592734
+    Part4: 3809337135

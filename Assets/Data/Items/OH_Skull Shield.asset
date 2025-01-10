@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fdd515daa797f8ebf973cb282f8723, type: 3}
+  m_Name: OH_Skull Shield
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 7e2669b01e50b361f86853815db896a5, type: 2}
+    - {fileID: 11400000, guid: 122e88a177c31752b99a17e24643434e, type: 2}
+    - {fileID: 11400000, guid: ed79acf89314144eaa7cfa24f672fcf0, type: 2}
+    - {fileID: 171342, guid: e6e095024649b0149836be3d122bd184, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: ItemBehavior
+      Entry: 7
+      Data: 0|ArmorBehavior, Assembly-CSharp
+    - Name: <ArmorStats>k__BackingField
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Stat, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 2|Stat, Assembly-CSharp
+    - Name: Details
+      Entry: 10
+      Data: 0
+    - Name: Level
+      Entry: 3
+      Data: 16
+    - Name: CurrentExp
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Stat, Assembly-CSharp
+    - Name: Details
+      Entry: 10
+      Data: 1
+    - Name: Level
+      Entry: 3
+      Data: 8
+    - Name: CurrentExp
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Stat, Assembly-CSharp
+    - Name: Details
+      Entry: 10
+      Data: 2
+    - Name: Level
+      Entry: 3
+      Data: 12
+    - Name: CurrentExp
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <EquipModel>k__BackingField
+      Entry: 10
+      Data: 3
+    - Name: <EquipMeshList>k__BackingField
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[UnityEngine.Mesh, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Name: Skull Shield
+  Type: 9
+  MaxStack: 1
+  Icon: {fileID: 21300000, guid: 491db5fa4656a50c6b2fa1ade3742bf1, type: 3}
+  Id:
+    Part1: 689478623
+    Part2: 1089165075
+    Part3: 583795595
+    Part4: 2039883991

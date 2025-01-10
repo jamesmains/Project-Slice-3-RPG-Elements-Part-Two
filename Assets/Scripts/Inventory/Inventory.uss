@@ -1,0 +1,150 @@
+*{
+    --max-width: 700px;
+    --max-height: 400px;
+    --slot-size: 100px;
+}
+
+.container {
+    flex-grow: 1;
+    width: auto;
+    height: auto;
+    max-width: none;
+    max-height: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*-unity-font-definition: url('/Assets/FantasyCartoonGUI/Fonts/CantedFX Bold.ttf');*/
+    /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);*/
+    /*-unity-text-align: middle-center;*/
+    color: rgb(81, 28, 28);
+}
+
+.equipmentContainer {
+    flex-grow: 1;
+    width: auto;
+    height: auto;
+    max-width: none;
+    max-height: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*-unity-font-definition: url('/Assets/FantasyCartoonGUI/Fonts/CantedFX Bold.ttf');*/
+    /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);*/
+    /*-unity-text-align: middle-center;*/
+    color: rgb(81, 28, 28);
+}
+
+.inventory {
+    left: -350px;
+    background-image: url('/Assets/Art/UI and Icons/9Sliced.png');
+    -unity-background-image-tint-color: rgb(252,245,229);
+    width: var(--max-width);
+    padding: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-height: var(--max-height);
+    flex-grow: 1;
+}
+.equipment {
+    right: -350px;
+    background-image: url('/Assets/Art/UI and Icons/9Sliced.png');
+    -unity-background-image-tint-color: rgb(252,245,229);
+    width: var(--max-width);
+    padding: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-height: var(--max-height);
+    flex-grow: 1;
+}
+
+.inventoryHeader {
+    position: absolute;
+    width: var(--max-width);
+    left: 0;
+    top: 0;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url('/Assets/FantasyCartoonGUI/Textures/inventory_bar_no_shadow.png');*/
+    -unity-slice-scale: 0.5;
+}
+
+Label {
+    font-size: 48px;
+}
+
+/*.inventoryFrame {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    width: var(--max-width);*/
+/*    height: var(--max-height);*/
+/*    !*background-image: url('/Assets/Art/UI and Icons/Inventory_0.png');*!*/
+/*    -unity-slice-scale: 0.5;*/
+/*}*/
+
+.slotsContainer {
+    flex-grow: 1;
+    margin-top: 75px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    /*background-image: url('/Assets/Art/UI and Icons/Inventory_0.png');*/
+}
+
+.slot {
+    width: var(--slot-size);
+    height: var(--slot-size);
+    margin: 4px;
+}
+
+.slotFrame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--slot-size);
+    height: var(--slot-size);
+    border-width: 0;
+    background-image: url('/Assets/Art/UI and Icons/Inventory_0.png');
+    -unity-slice-scale: 0.8;
+}
+
+.slotIcon {
+    padding: 10%;
+    
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+
+.stackCount {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    right: 0;
+    font-size: 32px;
+}
+
+.ghostIcon {
+    visibility: hidden;
+    position: absolute;
+    width: var(--slot-size);
+    height: var(--slot-size);
+    background-image: none;
+}
+
+/*.coins {*/
+/*    flex-grow: 1;*/
+/*    flex-direction: row;*/
+/*    align-items: flex-start;*/
+/*    justify-content: flex-start;*/
+/*}*/
+
+/*.coinsIcon {*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    margin: 4px;*/
+/*    background-image: url('/Assets/FantasyCartoonGUI/Textures/coin.png');*/
+/*}*/
